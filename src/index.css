@@ -1,0 +1,90 @@
+/* General styles for both light and dark modes */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  background-color: #dee4e7;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #222222;
+}
+
+.dark-mode .card {
+  background-color: #37474f; /* Example dark card background color */
+  color: whitesmoke; /* Example dark card text color */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* White box shadow */
+}
+
+.dark-text {
+  color: white;
+}
+
+.light-mode {
+  background-color:#D1D1D1;
+
+}
+
+.light-mode .card {
+  background-color: #F4F8F9;
+  color: black; /* Adjust text color for better visibility */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+/* Additional styles */
+.getTime {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.currentTemp {
+  font-size: 48px;
+}
+
+.feelsLike {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.cardText {
+  font-size: large;
+}
+
+.clockText {
+  font-size: 48px;
+}
+
+.large-flag {
+  width: 175px;
+  height: auto; /* Adjust height proportionally based on the width */
+  border: 2px solid #dee4e7;
+}
+
+.small-flag {
+  width: 25px;
+  height: auto;
+  margin-left: 10px;
+}
+
+
+@media (max-width: 350px) {
+  .navbar {
+    min-width: 350px;
+  }
+
+.searchCard {
+  min-width: 350px;
+}
+
+.full-container {
+  min-width:350px;
+}
+
+}
